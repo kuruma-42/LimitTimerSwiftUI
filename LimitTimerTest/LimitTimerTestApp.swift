@@ -11,7 +11,7 @@ import SwiftUI
 struct LimitTimerTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LimitTimerView()
         }
     }
 }

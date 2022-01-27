@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		02C1B6BA27A268F4002D599D /* LimitTimerTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6B927A268F4002D599D /* LimitTimerTestApp.swift */; };
-		02C1B6BC27A268F4002D599D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6BB27A268F4002D599D /* ContentView.swift */; };
+		02C1B6BC27A268F4002D599D /* LimitTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6BB27A268F4002D599D /* LimitTimerView.swift */; };
 		02C1B6BE27A268F6002D599D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C1B6BD27A268F6002D599D /* Assets.xcassets */; };
 		02C1B6C127A268F6002D599D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C1B6C027A268F6002D599D /* Preview Assets.xcassets */; };
 		02C1B6CB27A268F6002D599D /* LimitTimerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6CA27A268F6002D599D /* LimitTimerTestTests.swift */; };
 		02C1B6D527A268F6002D599D /* LimitTimerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6D427A268F6002D599D /* LimitTimerTestUITests.swift */; };
 		02C1B6D727A268F6002D599D /* LimitTimerTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6D627A268F6002D599D /* LimitTimerTestUITestsLaunchTests.swift */; };
+		02C1B6E427A26911002D599D /* LimitTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6E327A26911002D599D /* LimitTimerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		02C1B6B627A268F4002D599D /* LimitTimerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitTimerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1B6B927A268F4002D599D /* LimitTimerTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitTimerTestApp.swift; sourceTree = "<group>"; };
-		02C1B6BB27A268F4002D599D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02C1B6BB27A268F4002D599D /* LimitTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitTimerView.swift; sourceTree = "<group>"; };
 		02C1B6BD27A268F6002D599D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C1B6C027A268F6002D599D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02C1B6C627A268F6002D599D /* LimitTimerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitTimerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		02C1B6D027A268F6002D599D /* LimitTimerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitTimerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1B6D427A268F6002D599D /* LimitTimerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitTimerTestUITests.swift; sourceTree = "<group>"; };
 		02C1B6D627A268F6002D599D /* LimitTimerTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitTimerTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02C1B6E327A26911002D599D /* LimitTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitTimerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				02C1B6B927A268F4002D599D /* LimitTimerTestApp.swift */,
-				02C1B6BB27A268F4002D599D /* ContentView.swift */,
+				02C1B6BB27A268F4002D599D /* LimitTimerView.swift */,
 				02C1B6BD27A268F6002D599D /* Assets.xcassets */,
 				02C1B6BF27A268F6002D599D /* Preview Content */,
+				02C1B6E327A26911002D599D /* LimitTimerModel.swift */,
 			);
 			path = LimitTimerTest;
 			sourceTree = "<group>";
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C1B6BC27A268F4002D599D /* ContentView.swift in Sources */,
+				02C1B6E427A26911002D599D /* LimitTimerModel.swift in Sources */,
+				02C1B6BC27A268F4002D599D /* LimitTimerView.swift in Sources */,
 				02C1B6BA27A268F4002D599D /* LimitTimerTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
